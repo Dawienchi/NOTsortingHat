@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  color: #FEF2BF;
+}
+
+#name {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  /* margin-bottom: 5rem;
+  margin-top: 5rem; */
+  color: #ff4c68;
+  /* position: absolute; */
+  /* margin-left: 1150px;
+  margin-top: -150px; */
+}
+
+#timer {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: #ff4c68;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  width: 175px;
+  margin-top: 5rem;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.nameRow {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.highlightText {
+  font-family: 'Press Start 2P', cursive;
+  color: #ff4c68;
+}
+
+.speech-bubble {
+	position: absolute;
+  margin-left: 55%;
+	background: #ff4c68;
+  width: 400px;
+  height: 250px;
+	border-radius: 100%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  padding-top: .5%;
+}
+
+.speech-bubble:after {
+  font-family: 'Press Start 2P', cursive;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	width: 0;
+	height: 0;
+	border: 80px solid transparent;
+	border-top-color: #ff4c68;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -27.5px;
+	margin-bottom: -55px;
+  transform: rotate(25deg);
+}
+
+.box img {
+  width: 50%;
+  position: relative;
+}
+
+.box-caption {
+  position: absolute;
+  max-width: 400px;
+}
+
+.box-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding: .5rem;
+  text-align: center;
+  word-break: break-word;
+}
+
+/* Box: Center Center */
+.box-flex-center {
+  align-items: center;
+}
